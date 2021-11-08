@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "test tasks for AB-soft",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "mocha --no-timeouts"
   },
@@ -11,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "filereader": "^0.10.3",
+    "image-to-base64": "^2.2.0",
     "node-fetch": "^3.0.0",
     "selenium-webdriver": "^4.0.0",
     "sqlite-sync": "^0.3.9",
