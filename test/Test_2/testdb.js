@@ -2,8 +2,9 @@ const sqlite3 = require('sqlite3').verbose();
 const assert = require('assert');
 
 describe('Countries DB testing', () => {
+    let db;
     before(() => {
-        global.db = new sqlite3.Database( __dirname + '/DB/countries.db', sqlite3.OPEN_READONLY, (err) => {
+        db = new sqlite3.Database( __dirname + '/DB/countries.db', sqlite3.OPEN_READONLY, (err) => {
             if (err) console.log(err.message);
         });
     });
