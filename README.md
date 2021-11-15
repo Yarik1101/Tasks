@@ -4,6 +4,7 @@ test tasks for AB-soft
 ## Requirements
 - `node` - `v14.17.0`
 - `npm` - `6.14.13`
+- `chrome driver` - [latest version](http://chromedriver.storage.googleapis.com/index.html) 
 
 ## Installation
 ```
@@ -12,6 +13,11 @@ cd Tasks
 npm install
 npm test
 ```
+
+## Note about chrome-driver
+You will need to download additional components to work with browser. 
+Download the [latest version](http://chromedriver.storage.googleapis.com/index.html) of chrome-driver here.
+The driver for Chrome should be placed on your system PATH.
 
 # Tests
 ## Image comparison
